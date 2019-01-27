@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KLIPMUNK</string>
+    <string name="tagLine"><![CDATA[<b>Klip it before<b> you forget it]]></string>
+    <string name="terms"><![CDATA[By signing up you indicate that you have read and agree to klipmunk\'s <b><u> Terms of Service</u> </b> and <b><u>Privacy Policy<u></b> ]]></string>
+    <string name="full">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="title_activity_view_articles">ViewArticles</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="recent">#Recent</string>
+    <string name="news">#News</string>
+    <string name="reciepts">#Reciepts</string>
+    <string name="proof">#Proof</string>
+    <string name="articles">#Articles</string>
+    <string name="send">#Send</string>
+    <string name="addViews">Add</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="screenshots">SELECT SCREENSHOTS FROM GALLERY</string>
+    <string name="tag_creation">Create Tag</string>
+</resources>

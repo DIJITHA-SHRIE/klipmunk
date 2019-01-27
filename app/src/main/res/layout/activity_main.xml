@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context="com.telcco.klipmunk.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_dark" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/tagline"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="28dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="@string/full"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tagline"
+        android:background="@drawable/edi_text_box"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        android:background="@drawable/edi_text_box"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/terms"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        android:background="@drawable/edi_text_box"
+        android:padding="10dp"/>
+
+    <CheckBox
+        android:id="@+id/terms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:text="@string/signup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terms"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"/>
+</android.support.constraint.ConstraintLayout>

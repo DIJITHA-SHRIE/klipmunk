@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/recent"-->
+            <!--android:icon="@drawable/recent"-->
+            <!--android:title="@string/recent"-->
+            <!--/>-->
+        <!--<item-->
+            <!--android:id="@+id/news"-->
+            <!--android:icon="@drawable/news"-->
+            <!--android:title="@string/news" />-->
+        <!--<item-->
+            <!--android:id="@+id/reciept"-->
+            <!--android:icon="@drawable/receipt"-->
+            <!--android:title="@string/reciepts" />-->
+        <!--<item-->
+            <!--android:id="@+id/proof"-->
+            <!--android:icon="@drawable/proof"-->
+            <!--android:title="@string/proof" />-->
+        <!--<item-->
+            <!--android:id="@+id/articles"-->
+            <!--android:icon="@drawable/article"-->
+            <!--android:title="@string/articles" />-->
+        <!--<item-->
+            <!--android:id="@+id/send"-->
+            <!--android:icon="@drawable/ic_send_black_24dp"-->
+            <!--android:title="@string/send" />-->
+    <!--</group>-->
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

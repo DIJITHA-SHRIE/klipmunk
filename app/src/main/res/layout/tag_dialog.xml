@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_creation"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"
+        android:id="@+id/title_dialog"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Tag Name"
+        android:background="@drawable/edi_text_box"
+        android:padding="10dp"
+        android:id="@+id/tag_edit"/>
+
+</LinearLayout>
